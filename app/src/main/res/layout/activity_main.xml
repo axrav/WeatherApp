@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delhi"
+        android:textColorHighlight="@color/white"
+        android:textColor="@color/white"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:fontFamily="@font/rene"
+        android:textStyle="bold"/>
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:hint="Enter City/Country Name"
+        android:textColor="@color/white"
+        android:inputType="textCapWords"
+        android:maxLength="50"
+        android:textColorHint="#808080"
+        android:padding="30dp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="150dp"
+        android:fontFamily="sans-serif"
+        android:text="Search🔍"
+        android:id="@+id/buttonid"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@color/black">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="70dp"
+        android:id="@+id/temperatureid"
+        android:fontFamily="@font/jetbrains"
+        android:textSize="80sp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textColorHighlight="#808080"
+        android:text="28°C"/>
+
+
+</RelativeLayout>
